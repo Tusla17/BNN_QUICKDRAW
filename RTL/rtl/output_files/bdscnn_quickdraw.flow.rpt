@@ -1,0 +1,128 @@
+Flow report for bdscnn_quickdraw
+Fri Jul 10 23:00:39 2026
+Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2020  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++----------------------------------------------------------------------------------+
+; Flow Summary                                                                     ;
++------------------------------------+---------------------------------------------+
+; Flow Status                        ; Successful - Fri Jul 10 23:00:24 2026       ;
+; Quartus Prime Version              ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
+; Revision Name                      ; bdscnn_quickdraw                            ;
+; Top-level Entity Name              ; bdscnn_top                                  ;
+; Family                             ; MAX 10                                      ;
+; Device                             ; 10M50DAF484C7G                              ;
+; Timing Models                      ; Final                                       ;
+; Total logic elements               ; 18,325 / 49,760 ( 37 % )                    ;
+;     Total combinational functions  ; 17,943 / 49,760 ( 36 % )                    ;
+;     Dedicated logic registers      ; 2,241 / 49,760 ( 5 % )                      ;
+; Total registers                    ; 2241                                        ;
+; Total pins                         ; 9 / 360 ( 3 % )                             ;
+; Total virtual pins                 ; 0                                           ;
+; Total memory bits                  ; 112 / 1,677,312 ( < 1 % )                   ;
+; Embedded Multiplier 9-bit elements ; 0 / 288 ( 0 % )                             ;
+; Total PLLs                         ; 0 / 4 ( 0 % )                               ;
+; UFM blocks                         ; 0 / 1 ( 0 % )                               ;
+; ADC blocks                         ; 0 / 2 ( 0 % )                               ;
++------------------------------------+---------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 07/10/2026 22:53:11 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; bdscnn_quickdraw    ;
++-------------------+---------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                           ;
++-------------------------------------+----------------------------------------+------------------+-------------+------------+
+; Assignment Name                     ; Value                                  ; Default Value    ; Entity Name ; Section Id ;
++-------------------------------------+----------------------------------------+------------------+-------------+------------+
+; COMPILER_SIGNATURE_ID               ; 180604365294894.178369879146001        ; --               ; --          ; --         ;
+; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --               ; --          ; --         ;
+; MIN_CORE_JUNCTION_TEMP              ; 0                                      ; --               ; --          ; --         ;
+; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --               ; bdscnn_top  ; Top        ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family) ; --               ; bdscnn_top  ; Top        ;
+; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family) ; --               ; bdscnn_top  ; Top        ;
+; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                    ; --               ; --          ; --         ;
+; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW  ; --               ; --          ; --         ;
+; PROJECT_OUTPUT_DIRECTORY            ; output_files                           ; --               ; --          ; --         ;
+; TOP_LEVEL_ENTITY                    ; bdscnn_top                             ; bdscnn_quickdraw ; --          ; --         ;
++-------------------------------------+----------------------------------------+------------------+-------------+------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                        ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis ; 00:05:23     ; 1.0                     ; 1629 MB             ; 00:05:34                           ;
+; Fitter               ; 00:01:39     ; 1.4                     ; 1348 MB             ; 00:03:14                           ;
+; Assembler            ; 00:00:03     ; 1.0                     ; 399 MB              ; 00:00:03                           ;
+; Timing Analyzer      ; 00:00:14     ; 2.5                     ; 725 MB              ; 00:00:34                           ;
+; Total                ; 00:07:19     ; --                      ; --                  ; 00:09:25                           ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                                 ;
++----------------------+-----------------------------+--------------+------------+----------------+
+; Module Name          ; Machine Hostname            ; OS Name      ; OS Version ; Processor type ;
++----------------------+-----------------------------+--------------+------------+----------------+
+; Analysis & Synthesis ; huyatieo-ThinkPad-X13-Gen-1 ; Ubuntu 24.04 ; 24         ; x86_64         ;
+; Fitter               ; huyatieo-ThinkPad-X13-Gen-1 ; Ubuntu 24.04 ; 24         ; x86_64         ;
+; Assembler            ; huyatieo-ThinkPad-X13-Gen-1 ; Ubuntu 24.04 ; 24         ; x86_64         ;
+; Timing Analyzer      ; huyatieo-ThinkPad-X13-Gen-1 ; Ubuntu 24.04 ; 24         ; x86_64         ;
++----------------------+-----------------------------+--------------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off bdscnn_quickdraw -c bdscnn_quickdraw
+quartus_fit --read_settings_files=off --write_settings_files=off bdscnn_quickdraw -c bdscnn_quickdraw
+quartus_asm --read_settings_files=off --write_settings_files=off bdscnn_quickdraw -c bdscnn_quickdraw
+quartus_sta bdscnn_quickdraw -c bdscnn_quickdraw
+
+
+

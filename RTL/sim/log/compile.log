@@ -1,0 +1,29 @@
+QuestaSim-64 vlog 2021.2_1 Compiler 2021.05 May 15 2021
+Start time: 22:28:31 on Jul 10,2026
+vlog -sv -f ../compile.f "+incdir+../rtl" 
+-- Compiling module dw_pe
+-- Compiling module pw_pe
+-- Compiling package hw_stimulus
+-- Compiling module window4x4s2
+-- Compiling module pw_top
+-- Compiling module mcp_top
+-- Compiling module window3x3s1
+-- Compiling package fc1_constants
+-- Compiling module popcount
+-- Compiling module fc2_top
+-- Compiling package bdscnn_top_sv_unit
+-- Importing package fc1_constants
+-- Compiling module bdscnn_top
+-- Compiling module mcp_pe
+-- Compiling module fc1_neuron
+-- Compiling module fc1_folded_neuron
+-- Compiling module fc1_folded_top_test
+-- Compiling module fc1_top
+-- Compiling module dw_top
+-- Compiling module tb_bdscnn_top
+
+Top level modules:
+	fc1_top
+	tb_bdscnn_top
+End time: 22:28:31 on Jul 10,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Fri Jul 10 22:58:36 2026
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Revision Name : bdscnn_quickdraw
+Top-level Entity Name : bdscnn_top
+Family : MAX 10
+Total logic elements : 18,350
+    Total combinational functions : 17,555
+    Dedicated logic registers : 2,241
+Total registers : 2241
+Total pins : 9
+Total virtual pins : 0
+Total memory bits : 112
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
+UFM blocks : 0
+ADC blocks : 0

@@ -1,0 +1,70 @@
+# vsim -debugDB -l sim.log -voptargs="+acc" -assertdebug -c tb_bdscnn_top -do "log -r /*; run -all; quit" 
+# Start time: 22:28:33 on Jul 10,2026
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# //  Questa Sim-64
+# //  Version 2021.2_1 linux_x86_64 May 15 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.tb_bdscnn_top(fast)
+# Loading work.fc1_constants(fast)
+# Loading work.bdscnn_top_sv_unit(fast)
+# Loading work.bdscnn_top(fast)
+# Loading work.mcp_top(fast)
+# Loading work.window4x4s2(fast)
+# Loading work.mcp_pe(fast)
+# Loading work.popcount(fast)
+# Loading work.dw_top(fast)
+# Loading work.window3x3s1(fast)
+# Loading work.dw_pe(fast)
+# Loading work.popcount(fast__1)
+# Loading work.pw_top(fast)
+# Loading work.pw_pe(fast)
+# Loading work.fc1_folded_top_test(fast)
+# Loading work.fc1_folded_neuron(fast)
+# Loading work.popcount(fast__2)
+# Loading work.fc2_top(fast)
+# Loading work.popcount(fast__3)
+# ** Note: (vsim-8716) Reusing existing debug database vsim.dbg.
+# log -r /*
+#  run -all
+# ====================================================
+# [SYSTEM] STARTING QUICK DRAW! HARDWARE SIMULATION
+# ====================================================
+# [INFO] Streaming Test Sample 0 (Expected Class: 2)...
+#    [TIME: 20830000] -> MATCH! RTL Predicted: 2
+# [INFO] Streaming Test Sample 1 (Expected Class: 5)...
+#    [TIME: 41790000] -> MATCH! RTL Predicted: 5
+# [INFO] Streaming Test Sample 2 (Expected Class: 1)...
+#    [TIME: 62750000] -> MATCH! RTL Predicted: 1
+# [INFO] Streaming Test Sample 3 (Expected Class: 6)...
+#    [TIME: 83710000] -> MATCH! RTL Predicted: 6
+# [INFO] Streaming Test Sample 4 (Expected Class: 1)...
+#    [TIME: 104670000] -> MATCH! RTL Predicted: 1
+# [INFO] Streaming Test Sample 5 (Expected Class: 2)...
+#    [TIME: 125630000] -> MATCH! RTL Predicted: 2
+# [INFO] Streaming Test Sample 6 (Expected Class: 8)...
+#    [TIME: 146590000] -> MATCH! RTL Predicted: 8
+# [INFO] Streaming Test Sample 7 (Expected Class: 4)...
+#    [TIME: 167550000] -> FAIL! Expected: 4, Got: 1
+# [INFO] Streaming Test Sample 8 (Expected Class: 4)...
+#    [TIME: 188510000] -> MATCH! RTL Predicted: 4
+# [INFO] Streaming Test Sample 9 (Expected Class: 2)...
+#    [TIME: 209470000] -> MATCH! RTL Predicted: 2
+# ====================================================
+# [SYSTEM] SIMULATION COMPLETED
+# ====================================================
+# ** Note: $finish    : /home/huyatieo/Desktop/project/BNN/quick_draw/RTL/tb/tb_bdscnn_top.sv(95)
+#    Time: 209670 ns  Iteration: 0  Instance: /tb_bdscnn_top
+# End time: 22:28:34 on Jul 10,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

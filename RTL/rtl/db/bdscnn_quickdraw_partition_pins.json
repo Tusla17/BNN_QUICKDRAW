@@ -1,0 +1,45 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "sys_valid",
+					"strict" : false
+				},
+				{
+					"name" : "class_out[0]",
+					"strict" : false
+				},
+				{
+					"name" : "class_out[1]",
+					"strict" : false
+				},
+				{
+					"name" : "class_out[2]",
+					"strict" : false
+				},
+				{
+					"name" : "class_out[3]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "rst_n",
+					"strict" : false
+				},
+				{
+					"name" : "img_valid",
+					"strict" : false
+				},
+				{
+					"name" : "img_data",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

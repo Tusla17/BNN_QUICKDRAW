@@ -1,0 +1,1 @@
+Info (10281): Verilog HDL Declaration information at bdscnn_quickdraw.sv(100): object "CHAR_C" differs only in case from object "CHAR_c" in the same scope File: /home/huyatieo/Desktop/project/BNN/quick_draw/RTL/rtl/bdscnn_quickdraw.sv Line: 100

@@ -1,0 +1,536 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+!s11f vlog 2021.2_1 2021.05, May 15 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/home/huyatieo/Desktop/project/BNN/quick_draw/RTL/sim
+T_opt
+!s110 1783697296
+VX4;j9<G]g<QmaL@9Nz=o<1
+04 13 4 work tb_bdscnn_top fast 0
+=1-000ae431a4f1-6a510f90-aa31f-1a327
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work -debugdb +acc
+Z2 tCvgOpt 0
+n@_opt
+OL;O;2021.2_1;73
+R1
+vbdscnn_top
+Z3 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z4 DXx4 work 13 fc1_constants 0 22 ;JkoN=0LeY4L`L13oiTMV0
+DXx4 work 18 bdscnn_top_sv_unit 0 22 BZ681L5:1_Q^>L[X9X3CM3
+Z5 !s110 1783697311
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+!i10b 1
+!s100 0WLFQZ;TZ]OgHgWIc__>11
+IK5=M>kbMGV^^8dfOI5nDK0
+!s105 bdscnn_top_sv_unit
+S1
+R1
+Z7 w1783697292
+Z8 8/home/huyatieo/Desktop/project/BNN/quick_draw/RTL/rtl/bdscnn_top.sv
+Z9 F/home/huyatieo/Desktop/project/BNN/quick_draw/RTL/rtl/bdscnn_top.sv
+!i122 13
+L0 2 77
+Z10 OL;L;2021.2_1;73
+31
+Z11 !s108 1783697311.000000
+!s107 /home/huyatieo/Desktop/project/BNN/quick_draw/RTL/tb/tb_bdscnn_top.sv|/home/huyatieo/Desktop/project/BNN/quick_draw/RTL/rtl/dw_top.sv|/home/huyatieo/Desktop/project/BNN/quick_draw/RTL/rtl/fc1_top.sv|/home/huyatieo/Desktop/project/BNN/quick_draw/RTL/rtl/fc1_folded_top_test.sv|/home/huyatieo/Desktop/project/BNN/quick_draw/RTL/rtl/fc1_folded_neuron.sv|/home/huyatieo/Desktop/project/BNN/quick_draw/RTL/rtl/fc1_neuron.sv|/home/huyatieo/Desktop/project/BNN/quick_draw/RTL/rtl/mcp_pe.sv|/home/huyatieo/Desktop/project/BNN/quick_draw/RTL/rtl/bdscnn_top.sv|/home/huyatieo/Desktop/project/BNN/quick_draw/RTL/rtl/fc2_top.sv|/home/huyatieo/Desktop/project/BNN/quick_draw/RTL/rtl/popcount.sv|/home/huyatieo/Desktop/project/BNN/quick_draw/RTL/rtl/fc1_constants.sv|/home/huyatieo/Desktop/project/BNN/quick_draw/RTL/rtl/window3x3s1.sv|/home/huyatieo/Desktop/project/BNN/quick_draw/RTL/rtl/mcp_top.sv|/home/huyatieo/Desktop/project/BNN/quick_draw/RTL/rtl/pw_top.sv|/home/huyatieo/Desktop/project/BNN/quick_draw/RTL/rtl/window4x4s2.sv|/home/huyatieo/Desktop/project/BNN/quick_draw/RTL/rtl/hw_stimulus.sv|/home/huyatieo/Desktop/project/BNN/quick_draw/RTL/rtl/pw_pe.sv|/home/huyatieo/Desktop/project/BNN/quick_draw/RTL/rtl/dw_pe.sv|
+Z12 !s90 -sv|-f|../compile.f|+incdir+../rtl|
+!i113 0
+Z13 o-sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z14 !s92 -sv +incdir+../rtl -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+Xbdscnn_top_sv_unit
+R3
+R4
+R5
+VBZ681L5:1_Q^>L[X9X3CM3
+r1
+!s85 0
+!i10b 1
+!s100 Z;9J]KV=cO?W1:kW;_bnz0
+IBZ681L5:1_Q^>L[X9X3CM3
+!i103 1
+S1
+R1
+R7
+R8
+R9
+!i122 13
+Z15 L0 1 0
+R10
+31
+R11
+Z16 !s107 /home/huyatieo/Desktop/project/BNN/quick_draw/RTL/tb/tb_bdscnn_top.sv|/home/huyatieo/Desktop/project/BNN/quick_draw/RTL/rtl/dw_top.sv|/home/huyatieo/Desktop/project/BNN/quick_draw/RTL/rtl/fc1_top.sv|/home/huyatieo/Desktop/project/BNN/quick_draw/RTL/rtl/fc1_folded_top_test.sv|/home/huyatieo/Desktop/project/BNN/quick_draw/RTL/rtl/fc1_folded_neuron.sv|/home/huyatieo/Desktop/project/BNN/quick_draw/RTL/rtl/fc1_neuron.sv|/home/huyatieo/Desktop/project/BNN/quick_draw/RTL/rtl/mcp_pe.sv|/home/huyatieo/Desktop/project/BNN/quick_draw/RTL/rtl/bdscnn_top.sv|/home/huyatieo/Desktop/project/BNN/quick_draw/RTL/rtl/fc2_top.sv|/home/huyatieo/Desktop/project/BNN/quick_draw/RTL/rtl/popcount.sv|/home/huyatieo/Desktop/project/BNN/quick_draw/RTL/rtl/fc1_constants.sv|/home/huyatieo/Desktop/project/BNN/quick_draw/RTL/rtl/window3x3s1.sv|/home/huyatieo/Desktop/project/BNN/quick_draw/RTL/rtl/mcp_top.sv|/home/huyatieo/Desktop/project/BNN/quick_draw/RTL/rtl/pw_top.sv|/home/huyatieo/Desktop/project/BNN/quick_draw/RTL/rtl/window4x4s2.sv|/home/huyatieo/Desktop/project/BNN/quick_draw/RTL/rtl/hw_stimulus.sv|/home/huyatieo/Desktop/project/BNN/quick_draw/RTL/rtl/pw_pe.sv|/home/huyatieo/Desktop/project/BNN/quick_draw/RTL/rtl/dw_pe.sv|
+R12
+!i113 0
+R13
+R14
+R2
+vdw_pe
+R3
+R5
+!i10b 1
+!s100 Dd<N>VI]^WZfJB?FQ^noU1
+IBEF5YYPcg7MZi7GiOzHDC1
+S1
+R1
+w1782118307
+8/home/huyatieo/Desktop/project/BNN/quick_draw/RTL/rtl/dw_pe.sv
+F/home/huyatieo/Desktop/project/BNN/quick_draw/RTL/rtl/dw_pe.sv
+!i122 13
+L0 1 61
+R6
+R10
+r1
+!s85 0
+31
+R11
+R16
+R12
+!i113 0
+R13
+R14
+R2
+vdw_top
+R3
+R5
+!i10b 1
+!s100 dlI1QG?<]k>3k:Q9DF[>63
+ICNnN@1790czgJ5dEj1UhT2
+S1
+R1
+w1782899127
+8/home/huyatieo/Desktop/project/BNN/quick_draw/RTL/rtl/dw_top.sv
+F/home/huyatieo/Desktop/project/BNN/quick_draw/RTL/rtl/dw_top.sv
+!i122 13
+L0 1 93
+R6
+R10
+r1
+!s85 0
+31
+R11
+R16
+R12
+!i113 0
+R13
+R14
+R2
+Xfc1_constants
+R3
+R5
+!i10b 1
+!s100 967[Q0e3N?Zj>kzk7EXi_1
+I;JkoN=0LeY4L`L13oiTMV0
+S1
+R1
+w1782875102
+8/home/huyatieo/Desktop/project/BNN/quick_draw/RTL/rtl/fc1_constants.sv
+F/home/huyatieo/Desktop/project/BNN/quick_draw/RTL/rtl/fc1_constants.sv
+!i122 13
+R15
+V;JkoN=0LeY4L`L13oiTMV0
+R10
+r1
+!s85 0
+31
+R11
+R16
+R12
+!i113 0
+R13
+R14
+R2
+vfc1_folded_neuron
+R3
+R5
+!i10b 1
+!s100 WkP8fzHC5TT[JiSo<g:7?3
+IO2knH1Qc?VBz5]6CJC7FG1
+S1
+R1
+w1782899038
+8/home/huyatieo/Desktop/project/BNN/quick_draw/RTL/rtl/fc1_folded_neuron.sv
+F/home/huyatieo/Desktop/project/BNN/quick_draw/RTL/rtl/fc1_folded_neuron.sv
+!i122 13
+L0 1 71
+R6
+R10
+r1
+!s85 0
+31
+R11
+R16
+R12
+!i113 0
+R13
+R14
+R2
+vfc1_folded_top_test
+R3
+R5
+!i10b 1
+!s100 Lozk?8cKc7o>nlZ9DHP8?0
+ISB8[j^X`Q6eE@0gf8@LzA0
+S1
+R1
+w1783690195
+8/home/huyatieo/Desktop/project/BNN/quick_draw/RTL/rtl/fc1_folded_top_test.sv
+F/home/huyatieo/Desktop/project/BNN/quick_draw/RTL/rtl/fc1_folded_top_test.sv
+!i122 13
+L0 1 56
+R6
+R10
+r1
+!s85 0
+31
+R11
+R16
+R12
+!i113 0
+R13
+R14
+R2
+vfc1_neuron
+R3
+R5
+!i10b 1
+!s100 mK_eo;@Rg@i0^;mfiF;K=3
+IkI@HZbcWdgE>U3gem@k8e3
+S1
+R1
+w1782205854
+8/home/huyatieo/Desktop/project/BNN/quick_draw/RTL/rtl/fc1_neuron.sv
+F/home/huyatieo/Desktop/project/BNN/quick_draw/RTL/rtl/fc1_neuron.sv
+!i122 13
+L0 1 117
+R6
+R10
+r1
+!s85 0
+31
+R11
+R16
+R12
+!i113 0
+R13
+R14
+R2
+vfc1_top
+R3
+R4
+R5
+!i10b 1
+!s100 J<mNR]NLWTe8ZUZNdI7951
+IHc;XkHKT[GO;>ekhA4Y0h1
+S1
+R1
+w1782367869
+8/home/huyatieo/Desktop/project/BNN/quick_draw/RTL/rtl/fc1_top.sv
+F/home/huyatieo/Desktop/project/BNN/quick_draw/RTL/rtl/fc1_top.sv
+!i122 13
+L0 1 65
+R6
+R10
+r1
+!s85 0
+31
+R11
+R16
+R12
+!i113 0
+R13
+R14
+R2
+vfc2_top
+R3
+R5
+!i10b 1
+!s100 hInYgS::PS]6=ij5QICFz3
+IC41`QIoVP5f8Vj:mF@M`C0
+S1
+R1
+w1782898981
+8/home/huyatieo/Desktop/project/BNN/quick_draw/RTL/rtl/fc2_top.sv
+F/home/huyatieo/Desktop/project/BNN/quick_draw/RTL/rtl/fc2_top.sv
+!i122 13
+L0 1 933
+R6
+R10
+r1
+!s85 0
+31
+R11
+R16
+R12
+!i113 0
+R13
+R14
+R2
+Xhw_stimulus
+R3
+R5
+!i10b 1
+!s100 ^]ecD^9hfTOI3n7KNMJB92
+Ii^cji=W5;;W9MZzaiNK]U2
+S1
+R1
+w1782893445
+8/home/huyatieo/Desktop/project/BNN/quick_draw/RTL/rtl/hw_stimulus.sv
+F/home/huyatieo/Desktop/project/BNN/quick_draw/RTL/rtl/hw_stimulus.sv
+!i122 13
+R15
+Vi^cji=W5;;W9MZzaiNK]U2
+R10
+r1
+!s85 0
+31
+R11
+R16
+R12
+!i113 0
+R13
+R14
+R2
+vmcp_pe
+R3
+R5
+!i10b 1
+!s100 hgNa]VgWo4;TZ?X5;BBg;2
+I<o3]l;1:eiZF1mI?][Z123
+S1
+R1
+w1783694613
+8/home/huyatieo/Desktop/project/BNN/quick_draw/RTL/rtl/mcp_pe.sv
+F/home/huyatieo/Desktop/project/BNN/quick_draw/RTL/rtl/mcp_pe.sv
+!i122 13
+L0 1 59
+R6
+R10
+r1
+!s85 0
+31
+R11
+R16
+R12
+!i113 0
+R13
+R14
+R2
+vmcp_top
+R3
+R5
+!i10b 1
+!s100 Zf5R`MR1YjT`:eSd3CJ0c0
+ID]JP=YEfejFzmFT`JJ[F;2
+S1
+R1
+w1783694708
+8/home/huyatieo/Desktop/project/BNN/quick_draw/RTL/rtl/mcp_top.sv
+F/home/huyatieo/Desktop/project/BNN/quick_draw/RTL/rtl/mcp_top.sv
+!i122 13
+L0 1 63
+R6
+R10
+r1
+!s85 0
+31
+R11
+R16
+R12
+!i113 0
+R13
+R14
+R2
+vpopcount
+R3
+R5
+!i10b 1
+!s100 PV?<4VPgD]k`AFHHnE[BM0
+IBiBTC_dR=dcTkjeWX6URE3
+S1
+R1
+w1782206516
+8/home/huyatieo/Desktop/project/BNN/quick_draw/RTL/rtl/popcount.sv
+F/home/huyatieo/Desktop/project/BNN/quick_draw/RTL/rtl/popcount.sv
+!i122 13
+L0 1 22
+R6
+R10
+r1
+!s85 0
+31
+R11
+R16
+R12
+!i113 0
+R13
+R14
+R2
+vpw_pe
+R3
+R5
+!i10b 1
+!s100 [W87BkF1j:R_kKz4AKoPi2
+I7MR20P9a`EG3hJ_>4e@^N2
+S1
+R1
+w1782361655
+8/home/huyatieo/Desktop/project/BNN/quick_draw/RTL/rtl/pw_pe.sv
+F/home/huyatieo/Desktop/project/BNN/quick_draw/RTL/rtl/pw_pe.sv
+!i122 13
+L0 1 82
+R6
+R10
+r1
+!s85 0
+31
+R11
+R16
+R12
+!i113 0
+R13
+R14
+R2
+vpw_top
+R3
+R5
+!i10b 1
+!s100 8];13b:=4[8^;Kh2A_M1j1
+IF<@UCjLE701z<3jzf=Z=S3
+S1
+R1
+w1782808989
+8/home/huyatieo/Desktop/project/BNN/quick_draw/RTL/rtl/pw_top.sv
+F/home/huyatieo/Desktop/project/BNN/quick_draw/RTL/rtl/pw_top.sv
+!i122 13
+L0 1 84
+R6
+R10
+r1
+!s85 0
+31
+R11
+R16
+R12
+!i113 0
+R13
+R14
+R2
+vtb_bdscnn_top
+R3
+R5
+!i10b 1
+!s100 dzJkn^CN@mzMCld@2VCfN0
+IXjS^F1NMB;2`TC:;]e;n@3
+S1
+R1
+w1783690252
+8/home/huyatieo/Desktop/project/BNN/quick_draw/RTL/tb/tb_bdscnn_top.sv
+F/home/huyatieo/Desktop/project/BNN/quick_draw/RTL/tb/tb_bdscnn_top.sv
+!i122 13
+L0 3 103
+R6
+R10
+r1
+!s85 0
+31
+R11
+R16
+R12
+!i113 0
+R13
+R14
+R2
+vuart_rx
+R3
+!s110 1783575815
+!i10b 1
+!s100 3_EgEV9ENL>kDhJBlO7DX1
+I`DX<=>^PQXBAhnkQ<^CbV1
+S1
+R1
+w1782381188
+8/home/huyatieo/Desktop/project/BNN/quick_draw/RTL/rtl/uart_rx.sv
+F/home/huyatieo/Desktop/project/BNN/quick_draw/RTL/rtl/uart_rx.sv
+!i122 3
+L0 14 153
+R6
+R10
+r1
+!s85 0
+31
+!s108 1783575815.000000
+!s107 /home/huyatieo/Desktop/project/BNN/quick_draw/RTL/tb/tb_bdscnn_top.sv|/home/huyatieo/Desktop/project/BNN/quick_draw/RTL/rtl/dw_top.sv|/home/huyatieo/Desktop/project/BNN/quick_draw/RTL/rtl/fc1_top.sv|/home/huyatieo/Desktop/project/BNN/quick_draw/RTL/rtl/fc1_folded_top_test.sv|/home/huyatieo/Desktop/project/BNN/quick_draw/RTL/rtl/fc1_folded_neuron.sv|/home/huyatieo/Desktop/project/BNN/quick_draw/RTL/rtl/uart_rx.sv|/home/huyatieo/Desktop/project/BNN/quick_draw/RTL/rtl/fc1_neuron.sv|/home/huyatieo/Desktop/project/BNN/quick_draw/RTL/rtl/mcp_pe.sv|/home/huyatieo/Desktop/project/BNN/quick_draw/RTL/rtl/bdscnn_top.sv|/home/huyatieo/Desktop/project/BNN/quick_draw/RTL/rtl/fc2_top.sv|/home/huyatieo/Desktop/project/BNN/quick_draw/RTL/rtl/popcount.sv|/home/huyatieo/Desktop/project/BNN/quick_draw/RTL/rtl/fc1_constants.sv|/home/huyatieo/Desktop/project/BNN/quick_draw/RTL/rtl/window3x3s1.sv|/home/huyatieo/Desktop/project/BNN/quick_draw/RTL/rtl/mcp_top.sv|/home/huyatieo/Desktop/project/BNN/quick_draw/RTL/rtl/pw_top.sv|/home/huyatieo/Desktop/project/BNN/quick_draw/RTL/rtl/window4x4s2.sv|/home/huyatieo/Desktop/project/BNN/quick_draw/RTL/rtl/hw_stimulus.sv|/home/huyatieo/Desktop/project/BNN/quick_draw/RTL/rtl/pw_pe.sv|/home/huyatieo/Desktop/project/BNN/quick_draw/RTL/rtl/dw_pe.sv|
+R12
+!i113 0
+R13
+R14
+R2
+vwindow3x3s1
+R3
+R5
+!i10b 1
+!s100 AhAlh4XYAl>BiVaCZ>PIG2
+Id>c;_cfY@8aoWOaCQ45jQ3
+S1
+R1
+w1781938611
+8/home/huyatieo/Desktop/project/BNN/quick_draw/RTL/rtl/window3x3s1.sv
+F/home/huyatieo/Desktop/project/BNN/quick_draw/RTL/rtl/window3x3s1.sv
+!i122 13
+L0 1 96
+R6
+R10
+r1
+!s85 0
+31
+R11
+R16
+R12
+!i113 0
+R13
+R14
+R2
+vwindow4x4s2
+R3
+R5
+!i10b 1
+!s100 8kM_M[?VC11TIKaVNfH621
+IhGZ;dYK0Gmgm_6ak8^Z9c0
+S1
+R1
+w1782363311
+8/home/huyatieo/Desktop/project/BNN/quick_draw/RTL/rtl/window4x4s2.sv
+F/home/huyatieo/Desktop/project/BNN/quick_draw/RTL/rtl/window4x4s2.sv
+!i122 13
+L0 1 66
+R6
+R10
+r1
+!s85 0
+31
+R11
+R16
+R12
+!i113 0
+R13
+R14
+R2
